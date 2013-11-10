@@ -11,10 +11,10 @@ go:
 # go over whatever go is installed, etc.)
 # before_install:
 before_install:
-  - sudo add-apt-repository ppa:juju/stable
+  - sudo add-apt-repository -y ppa:juju/stable
   - sudo apt-get update
   # We should already have golang available
-  - sudo apt-get install build-essential bzr distro-info-data git-core mercurial mongodb-server zip
+  - sudo apt-get install -y build-essential bzr distro-info-data git-core mercurial mongodb-server zip
 
 # Default install is
 # install: go get -d -v ./... && go build -v ./...
