@@ -18,7 +18,6 @@ before_install:
   # the sslOnNormalPorts flag that we need to start mongodb. So we have to
   # unistall it (otherwise it conflicts) and install the actual one.
   - sudo apt-get purge -y mongodb-10gen
-  - sudo rm /etc/mongodb.conf
   - sudo apt-get install -y mongodb-server build-essential bzr distro-info-data git-core mercurial zip
 
 # Default install is
