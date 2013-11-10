@@ -6,10 +6,10 @@ package environs_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	_ "launchpad.net/juju-core/provider/ec2"
-	_ "launchpad.net/juju-core/provider/openstack"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/config"
+	_ "github.com/jameinel/juju/provider/ec2"
+	_ "github.com/jameinel/juju/provider/openstack"
 )
 
 type BoilerplateConfigSuite struct {

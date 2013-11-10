@@ -9,8 +9,8 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/jameinel/juju/cmd"
+	coretesting "github.com/jameinel/juju/testing"
 )
 
 var _ = gc.Suite(&DebugHooksSuite{})

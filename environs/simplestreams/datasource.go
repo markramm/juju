@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"strings"
 
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/utils"
 )
 
 // A DataSource retrieves simplestreams metadata.

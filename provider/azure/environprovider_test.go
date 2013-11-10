@@ -9,7 +9,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/config"
+	"github.com/jameinel/juju/environs/config"
 )
 
 type environProviderSuite struct {

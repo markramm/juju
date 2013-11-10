@@ -8,8 +8,8 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/testing/testbase"
+	"github.com/jameinel/juju/utils"
 )
 
 type sudoSuite struct {

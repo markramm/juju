@@ -9,11 +9,11 @@ import (
 
 	"launchpad.net/gwacl"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/instances"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/errors"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/environs/imagemetadata"
+	"github.com/jameinel/juju/environs/instances"
+	"github.com/jameinel/juju/environs/simplestreams"
+	"github.com/jameinel/juju/errors"
 )
 
 // preferredTypes is a list of machine types, in order of preference so that

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"sort"
 
-	"launchpad.net/juju-core/constraints"
+	"github.com/jameinel/juju/constraints"
 )
 
 // InstanceType holds all relevant attributes of the various instance types.

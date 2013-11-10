@@ -13,16 +13,16 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/environs/sync"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	envtools "launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/juju/testing"
-	coretesting "launchpad.net/juju-core/testing"
-	jc "launchpad.net/juju-core/testing/checkers"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/environs/filestorage"
+	"github.com/jameinel/juju/environs/storage"
+	"github.com/jameinel/juju/environs/sync"
+	envtesting "github.com/jameinel/juju/environs/testing"
+	envtools "github.com/jameinel/juju/environs/tools"
+	"github.com/jameinel/juju/juju/testing"
+	coretesting "github.com/jameinel/juju/testing"
+	jc "github.com/jameinel/juju/testing/checkers"
+	coretools "github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/version"
 )
 
 type UpgradeJujuSuite struct {

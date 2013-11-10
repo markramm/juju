@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/log"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/log"
 )
 
 // Server is an http.Handler that serves the HTTP API of juju

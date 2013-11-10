@@ -10,8 +10,8 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/juju/testing"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/jameinel/juju/juju/testing"
+	coretesting "github.com/jameinel/juju/testing"
 )
 
 var _ = gc.Suite(&observerSuite{})

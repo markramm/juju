@@ -9,8 +9,8 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/instance"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/instance"
 )
 
 type utilSuite struct{}

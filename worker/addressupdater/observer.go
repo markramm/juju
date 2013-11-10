@@ -8,10 +8,10 @@ import (
 
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/worker"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/watcher"
+	"github.com/jameinel/juju/worker"
 )
 
 // TODO(rog) 2013-10-02

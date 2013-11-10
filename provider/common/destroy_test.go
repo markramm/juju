@@ -9,12 +9,12 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/provider/common"
-	jc "launchpad.net/juju-core/testing/checkers"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/provider/common"
+	jc "github.com/jameinel/juju/testing/checkers"
+	"github.com/jameinel/juju/testing/testbase"
 )
 
 type DestroySuite struct {

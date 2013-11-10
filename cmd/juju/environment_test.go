@@ -9,9 +9,9 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/provider/dummy"
-	"launchpad.net/juju-core/testing"
+	jujutesting "github.com/jameinel/juju/juju/testing"
+	"github.com/jameinel/juju/provider/dummy"
+	"github.com/jameinel/juju/testing"
 )
 
 type GetEnvironmentSuite struct {

@@ -6,12 +6,12 @@ package upgrader
 import (
 	"errors"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/state/apiserver/common"
+	"github.com/jameinel/juju/state/watcher"
+	"github.com/jameinel/juju/version"
 )
 
 // UpgraderAPI provides access to the Upgrader API facade.

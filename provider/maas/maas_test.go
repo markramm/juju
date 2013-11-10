@@ -9,10 +9,10 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/gomaasapi"
 
-	"launchpad.net/juju-core/environs/config"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/jameinel/juju/environs/config"
+	envtesting "github.com/jameinel/juju/environs/testing"
+	coretesting "github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/testing/testbase"
 )
 
 func TestMAAS(t *stdtesting.T) {

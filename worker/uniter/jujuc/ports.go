@@ -11,7 +11,7 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/cmd"
+	"github.com/jameinel/juju/cmd"
 )
 
 const portFormat = "<port>[/<protocol>]"

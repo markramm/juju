@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	gc "launchpad.net/gocheck"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/version"
 )
 
 type suite struct{}

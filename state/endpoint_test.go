@@ -6,8 +6,8 @@ package state_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/state"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/state"
 )
 
 type EndpointSuite struct {

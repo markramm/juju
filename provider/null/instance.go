@@ -6,8 +6,8 @@ package null
 import (
 	"net"
 
-	"launchpad.net/juju-core/environs/manual"
-	"launchpad.net/juju-core/instance"
+	"github.com/jameinel/juju/environs/manual"
+	"github.com/jameinel/juju/instance"
 )
 
 type nullBootstrapInstance struct {

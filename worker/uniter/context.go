@@ -15,11 +15,11 @@ import (
 	"sync"
 	"time"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/uniter"
-	unitdebug "launchpad.net/juju-core/worker/uniter/debug"
-	"launchpad.net/juju-core/worker/uniter/jujuc"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/state/api/uniter"
+	unitdebug "github.com/jameinel/juju/worker/uniter/debug"
+	"github.com/jameinel/juju/worker/uniter/jujuc"
 )
 
 // HookContext is the implementation of jujuc.Context.

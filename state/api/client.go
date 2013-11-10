@@ -4,9 +4,9 @@
 package api
 
 import (
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/state/api/params"
 )
 
 // Client represents the client-accessible part of the state.

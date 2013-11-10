@@ -11,21 +11,21 @@ import (
 
 	"launchpad.net/gwacl"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/cloudinit"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/instances"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	envtools "launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/provider/common"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils/parallel"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/cloudinit"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/environs/imagemetadata"
+	"github.com/jameinel/juju/environs/instances"
+	"github.com/jameinel/juju/environs/simplestreams"
+	"github.com/jameinel/juju/environs/storage"
+	envtools "github.com/jameinel/juju/environs/tools"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/provider/common"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api"
+	"github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/utils/parallel"
 )
 
 const (
@@ -870,7 +870,7 @@ func (env *azureEnviron) getStorageContext() (*gwacl.StorageContext, error) {
 //
 // Note: Due to datasource fallback issues, the default daily stream has been removed.
 //       This var now only serves as an injection point for tests. See also:
-//           https://bugs.launchpad.net/juju-core/+bug/1233924
+//           https://bugs.github.com/jameinel/juju/+bug/1233924
 var baseURLs = []string{}
 
 // GetImageSources returns a list of sources which are used to search for simplestreams image metadata.

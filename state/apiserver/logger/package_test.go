@@ -6,7 +6,7 @@ package logger_test
 import (
 	stdtesting "testing"
 
-	"launchpad.net/juju-core/testing"
+	"github.com/jameinel/juju/testing"
 )
 
 func TestAll(t *stdtesting.T) {

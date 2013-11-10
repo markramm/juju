@@ -9,7 +9,7 @@ import (
 
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/log"
+	"github.com/jameinel/juju/log"
 )
 
 // RestartDelay holds the length of time that a worker

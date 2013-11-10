@@ -11,13 +11,13 @@ import (
 	"launchpad.net/loggo"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/agent"
-	agenttools "launchpad.net/juju-core/agent/tools"
-	"launchpad.net/juju-core/state/api/upgrader"
-	"launchpad.net/juju-core/state/watcher"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/agent"
+	agenttools "github.com/jameinel/juju/agent/tools"
+	"github.com/jameinel/juju/state/api/upgrader"
+	"github.com/jameinel/juju/state/watcher"
+	coretools "github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/utils"
+	"github.com/jameinel/juju/version"
 )
 
 // retryAfter returns a channel that receives a value

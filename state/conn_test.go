@@ -9,9 +9,9 @@ import (
 	"labix.org/v2/mgo"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/testing/testbase"
 )
 
 // TestPackage integrates the tests into gotest.

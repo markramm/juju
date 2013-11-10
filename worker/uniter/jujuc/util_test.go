@@ -12,11 +12,11 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/utils/set"
-	"launchpad.net/juju-core/worker/uniter/jujuc"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/utils/set"
+	"github.com/jameinel/juju/worker/uniter/jujuc"
 )
 
 func TestPackage(t *testing.T) { gc.TestingT(t) }

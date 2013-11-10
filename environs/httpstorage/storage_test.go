@@ -13,11 +13,11 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/httpstorage"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/errors"
-	coretesting "launchpad.net/juju-core/testing"
-	jc "launchpad.net/juju-core/testing/checkers"
+	"github.com/jameinel/juju/environs/httpstorage"
+	"github.com/jameinel/juju/environs/storage"
+	"github.com/jameinel/juju/errors"
+	coretesting "github.com/jameinel/juju/testing"
+	jc "github.com/jameinel/juju/testing/checkers"
 )
 
 type storageSuite struct{}

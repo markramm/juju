@@ -6,15 +6,15 @@ package tools_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/configstore"
-	sstesting "launchpad.net/juju-core/environs/simplestreams/testing"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/provider/dummy"
-	"launchpad.net/juju-core/testing"
-	jc "launchpad.net/juju-core/testing/checkers"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/environs/configstore"
+	sstesting "github.com/jameinel/juju/environs/simplestreams/testing"
+	"github.com/jameinel/juju/environs/storage"
+	"github.com/jameinel/juju/environs/tools"
+	"github.com/jameinel/juju/provider/dummy"
+	"github.com/jameinel/juju/testing"
+	jc "github.com/jameinel/juju/testing/checkers"
 )
 
 type URLsSuite struct {

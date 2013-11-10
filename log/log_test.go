@@ -12,7 +12,7 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/log"
+	"github.com/jameinel/juju/log"
 )
 
 func Test(t *testing.T) {

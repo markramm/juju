@@ -5,8 +5,8 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/testing"
+	"github.com/jameinel/juju/juju/osenv"
+	"github.com/jameinel/juju/testing"
 )
 
 func (*importSuite) TestHome(c *gc.C) {

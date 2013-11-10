@@ -10,10 +10,10 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/names"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/juju"
+	"github.com/jameinel/juju/names"
 )
 
 // UpgradeCharm is responsible for upgrading a service's charm.

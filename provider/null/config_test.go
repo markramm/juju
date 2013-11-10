@@ -10,10 +10,10 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/provider"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/provider"
+	coretesting "github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/testing/testbase"
 )
 
 type configSuite struct {

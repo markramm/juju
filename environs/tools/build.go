@@ -15,7 +15,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/version"
 )
 
 // archive writes the executable files found in the given directory in
@@ -186,7 +186,7 @@ func copyExistingJujud(dir string) error {
 func buildJujud(dir string) error {
 	logger.Infof("building jujud")
 	cmds := [][]string{
-		{"go", "install", "launchpad.net/juju-core/cmd/jujud"},
+		{"go", "install", "github.com/jameinel/juju/cmd/jujud"},
 		{"strip", dir + "/jujud"},
 	}
 	env := setenv(os.Environ(), "GOBIN="+dir)

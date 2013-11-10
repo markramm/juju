@@ -4,7 +4,7 @@
 package testing
 
 import (
-	"launchpad.net/juju-core/state"
+	"github.com/jameinel/juju/state"
 )
 
 // UpdateConfig sets the current agent version in the state's

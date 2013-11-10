@@ -12,12 +12,12 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/juju/testing"
+	"github.com/jameinel/juju/state"
+	coretesting "github.com/jameinel/juju/testing"
 )
 
 var _ = gc.Suite(&SSHSuite{})

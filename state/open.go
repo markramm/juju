@@ -14,13 +14,13 @@ import (
 	"labix.org/v2/mgo"
 	"labix.org/v2/mgo/txn"
 
-	"launchpad.net/juju-core/cert"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/state/presence"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/cert"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/state/presence"
+	"github.com/jameinel/juju/state/watcher"
+	"github.com/jameinel/juju/utils"
 )
 
 // Info encapsulates information about cluster of

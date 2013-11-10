@@ -11,7 +11,7 @@ import (
 
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/juju/osenv"
+	"github.com/jameinel/juju/juju/osenv"
 )
 
 const (

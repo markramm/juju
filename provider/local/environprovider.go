@@ -10,11 +10,11 @@ import (
 
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/provider"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/provider"
+	"github.com/jameinel/juju/utils"
+	"github.com/jameinel/juju/version"
 )
 
 var logger = loggo.GetLogger("juju.provider.local")

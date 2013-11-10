@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/utils"
 )
 
 // checkProvisionedScript is the script to run on the remote machine

@@ -12,10 +12,10 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	jc "launchpad.net/juju-core/testing/checkers"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/upstart"
-	"launchpad.net/juju-core/utils"
+	jc "github.com/jameinel/juju/testing/checkers"
+	"github.com/jameinel/juju/testing/testbase"
+	"github.com/jameinel/juju/upstart"
+	"github.com/jameinel/juju/utils"
 )
 
 func Test(t *testing.T) { gc.TestingT(t) }

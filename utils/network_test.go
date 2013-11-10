@@ -8,7 +8,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/utils"
 )
 
 type networkSuite struct {

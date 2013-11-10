@@ -7,12 +7,12 @@ import (
 	stderrors "errors"
 	"sync"
 
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/rpc"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
-	"launchpad.net/juju-core/state/presence"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/rpc"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/state/apiserver/common"
+	"github.com/jameinel/juju/state/presence"
 )
 
 func newStateServer(srv *Server, rpcConn *rpc.Conn, loginCallback func(string)) *initialRoot {

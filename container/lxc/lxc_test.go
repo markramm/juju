@@ -15,15 +15,15 @@ import (
 	"launchpad.net/goyaml"
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/container/lxc"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/instance"
-	instancetest "launchpad.net/juju-core/instance/testing"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	jc "launchpad.net/juju-core/testing/checkers"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/container/lxc"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/instance"
+	instancetest "github.com/jameinel/juju/instance/testing"
+	jujutesting "github.com/jameinel/juju/juju/testing"
+	jc "github.com/jameinel/juju/testing/checkers"
+	"github.com/jameinel/juju/testing/testbase"
+	"github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/version"
 )
 
 func Test(t *stdtesting.T) {

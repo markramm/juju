@@ -15,7 +15,7 @@ import (
 	"text/template"
 	"time"
 
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/utils"
 )
 
 var startedRE = regexp.MustCompile(`^.* start/running, process (\d+)\n$`)

@@ -9,9 +9,9 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/rpc"
-	"launchpad.net/juju-core/state/api"
+	"github.com/jameinel/juju/juju/testing"
+	"github.com/jameinel/juju/rpc"
+	"github.com/jameinel/juju/state/api"
 )
 
 type stateSuite struct {

@@ -8,8 +8,8 @@ import (
 
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/version"
 )
 
 var logger = loggo.GetLogger("juju.agent.tools")

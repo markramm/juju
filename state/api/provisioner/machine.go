@@ -6,11 +6,11 @@ package provisioner
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/watcher"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/names"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/state/api/watcher"
 )
 
 // Machine represents a juju machine as seen by the provisioner worker.

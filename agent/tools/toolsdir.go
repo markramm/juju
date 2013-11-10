@@ -15,8 +15,8 @@ import (
 	"path"
 	"strings"
 
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	coretools "github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/version"
 )
 
 const toolsFile = "downloaded-tools.txt"

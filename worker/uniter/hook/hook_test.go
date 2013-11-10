@@ -8,8 +8,8 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm/hooks"
-	"launchpad.net/juju-core/worker/uniter/hook"
+	"github.com/jameinel/juju/charm/hooks"
+	"github.com/jameinel/juju/worker/uniter/hook"
 )
 
 func Test(t *testing.T) {

@@ -4,10 +4,10 @@
 package cleaner
 
 import (
-	"launchpad.net/juju-core/log"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/watcher"
-	"launchpad.net/juju-core/worker"
+	"github.com/jameinel/juju/log"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api/watcher"
+	"github.com/jameinel/juju/worker"
 )
 
 // Cleaner is responsible for cleaning up the state.

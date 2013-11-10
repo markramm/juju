@@ -6,8 +6,8 @@ package machiner
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/watcher"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/state/api/watcher"
 )
 
 // Machine represents a juju machine as seen by a machiner worker.

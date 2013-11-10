@@ -6,15 +6,15 @@ package tools_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/configstore"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	envtools "launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/provider/dummy"
-	"launchpad.net/juju-core/testing/testbase"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/environs/configstore"
+	envtesting "github.com/jameinel/juju/environs/testing"
+	envtools "github.com/jameinel/juju/environs/tools"
+	"github.com/jameinel/juju/provider/dummy"
+	"github.com/jameinel/juju/testing/testbase"
+	coretools "github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/version"
 )
 
 type StorageSuite struct {

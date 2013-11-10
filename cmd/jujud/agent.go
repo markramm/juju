@@ -10,19 +10,19 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/log"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	apiagent "launchpad.net/juju-core/state/api/agent"
-	apideployer "launchpad.net/juju-core/state/api/deployer"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/version"
-	"launchpad.net/juju-core/worker"
-	"launchpad.net/juju-core/worker/deployer"
-	"launchpad.net/juju-core/worker/upgrader"
+	"github.com/jameinel/juju/agent"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/log"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api"
+	apiagent "github.com/jameinel/juju/state/api/agent"
+	apideployer "github.com/jameinel/juju/state/api/deployer"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/version"
+	"github.com/jameinel/juju/worker"
+	"github.com/jameinel/juju/worker/deployer"
+	"github.com/jameinel/juju/worker/upgrader"
 )
 
 // requiredError is useful when complaining about missing command-line options.

@@ -9,12 +9,12 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	envtesting "launchpad.net/juju-core/environs/testing"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state/api/params"
-	jc "launchpad.net/juju-core/testing/checkers"
-	"launchpad.net/juju-core/version"
+	envtesting "github.com/jameinel/juju/environs/testing"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/juju/testing"
+	"github.com/jameinel/juju/state/api/params"
+	jc "github.com/jameinel/juju/testing/checkers"
+	"github.com/jameinel/juju/version"
 )
 
 type provisionerSuite struct {

@@ -13,13 +13,13 @@ import (
 	"launchpad.net/loggo"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/utils/set"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/names"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/state/watcher"
+	"github.com/jameinel/juju/utils/set"
 )
 
 var watchLogger = loggo.GetLogger("juju.state.watch")

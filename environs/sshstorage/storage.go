@@ -18,8 +18,8 @@ import (
 	"strconv"
 	"strings"
 
-	coreerrors "launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/utils"
+	coreerrors "github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/utils"
 )
 
 // base64LineLength is the default line length for wrapping

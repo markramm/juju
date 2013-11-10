@@ -8,7 +8,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/names"
+	"github.com/jameinel/juju/names"
 )
 
 type unitSuite struct{}

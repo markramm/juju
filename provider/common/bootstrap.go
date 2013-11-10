@@ -8,10 +8,10 @@ import (
 
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/instance"
-	coretools "launchpad.net/juju-core/tools"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/instance"
+	coretools "github.com/jameinel/juju/tools"
 )
 
 var logger = loggo.GetLogger("juju.provider.common")

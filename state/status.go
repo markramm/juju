@@ -9,8 +9,8 @@ import (
 	"labix.org/v2/mgo"
 	"labix.org/v2/mgo/txn"
 
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/state/api/params"
 )
 
 // statusDoc represents a entity status in Mongodb.  The implicit

@@ -6,9 +6,9 @@ package minunitsworker
 import (
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/watcher"
-	"launchpad.net/juju-core/worker"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api/watcher"
+	"github.com/jameinel/juju/worker"
 )
 
 var logger = loggo.GetLogger("juju.worker.minunitsworker")

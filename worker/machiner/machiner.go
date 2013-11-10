@@ -7,11 +7,11 @@ import (
 
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/state/api/machiner"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/watcher"
-	"launchpad.net/juju-core/worker"
+	"github.com/jameinel/juju/agent"
+	"github.com/jameinel/juju/state/api/machiner"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/state/api/watcher"
+	"github.com/jameinel/juju/worker"
 )
 
 var logger = loggo.GetLogger("juju.worker.machiner")

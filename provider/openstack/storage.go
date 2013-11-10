@@ -12,9 +12,9 @@ import (
 	gooseerrors "launchpad.net/goose/errors"
 	"launchpad.net/goose/swift"
 
-	"launchpad.net/juju-core/environs/storage"
-	coreerrors "launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/environs/storage"
+	coreerrors "github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/utils"
 )
 
 // openstackstorage implements storage.Storage on an OpenStack container.

@@ -13,15 +13,15 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	apiuniter "launchpad.net/juju-core/state/api/uniter"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/worker/uniter"
-	"launchpad.net/juju-core/worker/uniter/jujuc"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/juju/testing"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api"
+	"github.com/jameinel/juju/state/api/params"
+	apiuniter "github.com/jameinel/juju/state/api/uniter"
+	"github.com/jameinel/juju/utils"
+	"github.com/jameinel/juju/worker/uniter"
+	"github.com/jameinel/juju/worker/uniter/jujuc"
 )
 
 type RunHookSuite struct {

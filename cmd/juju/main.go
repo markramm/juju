@@ -9,12 +9,12 @@ import (
 
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/juju"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/juju"
 
 	// Import the providers.
-	_ "launchpad.net/juju-core/provider/all"
+	_ "github.com/jameinel/juju/provider/all"
 )
 
 var logger = loggo.GetLogger("juju.cmd.juju")

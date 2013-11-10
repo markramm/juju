@@ -7,13 +7,13 @@ import (
 	"errors"
 	"fmt"
 
-	"launchpad.net/juju-core/environs"
-	envtools "launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/provider/common"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/worker/localstorage"
+	"github.com/jameinel/juju/environs"
+	envtools "github.com/jameinel/juju/environs/tools"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/provider/common"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/worker/localstorage"
 )
 
 const BootstrapInstanceId = instance.Id(manualInstancePrefix)

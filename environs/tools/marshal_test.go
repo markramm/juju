@@ -8,8 +8,8 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/tools"
-	jc "launchpad.net/juju-core/testing/checkers"
+	"github.com/jameinel/juju/environs/tools"
+	jc "github.com/jameinel/juju/testing/checkers"
 )
 
 var _ = gc.Suite(&marshalSuite{})

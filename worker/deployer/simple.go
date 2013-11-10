@@ -11,13 +11,13 @@ import (
 	"regexp"
 	"strings"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/agent/tools"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/log/syslog"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/upstart"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/agent"
+	"github.com/jameinel/juju/agent/tools"
+	"github.com/jameinel/juju/juju/osenv"
+	"github.com/jameinel/juju/log/syslog"
+	"github.com/jameinel/juju/names"
+	"github.com/jameinel/juju/upstart"
+	"github.com/jameinel/juju/version"
 )
 
 // SimpleContext is a Context that manages unit deployments via upstart

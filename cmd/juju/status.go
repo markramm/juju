@@ -12,16 +12,16 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils/set"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/juju"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/utils/set"
 )
 
 type StatusCommand struct {

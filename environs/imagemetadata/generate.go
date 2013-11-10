@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/errors"
+	"github.com/jameinel/juju/environs/simplestreams"
+	"github.com/jameinel/juju/environs/storage"
+	"github.com/jameinel/juju/errors"
 )
 
 // MergeAndWriteMetadata reads the existing metadata from storage (if any),

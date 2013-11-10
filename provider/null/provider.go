@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/provider"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/provider"
+	"github.com/jameinel/juju/utils"
 )
 
 type nullProvider struct{}

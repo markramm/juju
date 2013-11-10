@@ -6,10 +6,10 @@ package tools
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/simplestreams"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/environs/simplestreams"
+	coretesting "github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/testing/testbase"
 )
 
 type ValidateSuite struct {

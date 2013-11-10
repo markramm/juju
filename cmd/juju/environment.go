@@ -9,8 +9,8 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/juju"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/juju"
 )
 
 // GetEnvironmentCommand is able to output either the entire environment or

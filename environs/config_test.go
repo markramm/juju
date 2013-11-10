@@ -9,11 +9,11 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/provider/dummy"
-	"launchpad.net/juju-core/testing"
-	jc "launchpad.net/juju-core/testing/checkers"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/provider/dummy"
+	"github.com/jameinel/juju/testing"
+	jc "github.com/jameinel/juju/testing/checkers"
 )
 
 type suite struct{}

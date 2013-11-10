@@ -11,15 +11,15 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/jujutest"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	"launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/provider/local"
-	jc "launchpad.net/juju-core/testing/checkers"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/environs/jujutest"
+	envtesting "github.com/jameinel/juju/environs/testing"
+	"github.com/jameinel/juju/environs/tools"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/provider/local"
+	jc "github.com/jameinel/juju/testing/checkers"
 )
 
 type environSuite struct {

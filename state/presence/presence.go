@@ -17,7 +17,7 @@ import (
 	"labix.org/v2/mgo/bson"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/log"
+	"github.com/jameinel/juju/log"
 )
 
 // Debug specifies whether the package will log debug

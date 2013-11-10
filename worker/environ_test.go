@@ -9,11 +9,11 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/worker"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/juju/testing"
+	"github.com/jameinel/juju/state"
+	coretesting "github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/worker"
 )
 
 type waitForEnvironSuite struct {

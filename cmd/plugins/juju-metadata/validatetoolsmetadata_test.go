@@ -10,13 +10,13 @@ import (
 	"launchpad.net/goamz/aws"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/tools"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/environs/simplestreams"
+	"github.com/jameinel/juju/environs/tools"
+	coretesting "github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/testing/testbase"
+	"github.com/jameinel/juju/version"
 )
 
 type ValidateToolsMetadataSuite struct {

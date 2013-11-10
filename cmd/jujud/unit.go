@@ -10,13 +10,13 @@ import (
 	"launchpad.net/loggo"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/worker"
-	"launchpad.net/juju-core/worker/logger"
-	"launchpad.net/juju-core/worker/uniter"
-	"launchpad.net/juju-core/worker/upgrader"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/names"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/worker"
+	"github.com/jameinel/juju/worker/logger"
+	"github.com/jameinel/juju/worker/uniter"
+	"github.com/jameinel/juju/worker/upgrader"
 )
 
 var agentLogger = loggo.GetLogger("juju.jujud")

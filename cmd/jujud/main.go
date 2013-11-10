@@ -9,11 +9,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/worker/uniter/jujuc"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/worker/uniter/jujuc"
 
 	// Import the providers.
-	_ "launchpad.net/juju-core/provider/all"
+	_ "github.com/jameinel/juju/provider/all"
 )
 
 var jujudDoc = `

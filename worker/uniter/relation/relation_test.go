@@ -12,10 +12,10 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm/hooks"
-	jc "launchpad.net/juju-core/testing/checkers"
-	"launchpad.net/juju-core/worker/uniter/hook"
-	"launchpad.net/juju-core/worker/uniter/relation"
+	"github.com/jameinel/juju/charm/hooks"
+	jc "github.com/jameinel/juju/testing/checkers"
+	"github.com/jameinel/juju/worker/uniter/hook"
+	"github.com/jameinel/juju/worker/uniter/relation"
 )
 
 type StateDirSuite struct{}

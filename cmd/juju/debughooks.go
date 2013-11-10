@@ -8,10 +8,10 @@ import (
 	"errors"
 	"fmt"
 
-	"launchpad.net/juju-core/charm/hooks"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/names"
-	unitdebug "launchpad.net/juju-core/worker/uniter/debug"
+	"github.com/jameinel/juju/charm/hooks"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/names"
+	unitdebug "github.com/jameinel/juju/worker/uniter/debug"
 )
 
 // DebugHooksCommand is responsible for launching a ssh shell on a given unit or machine.

@@ -13,10 +13,10 @@ import (
 	"labix.org/v2/mgo"
 	"labix.org/v2/mgo/txn"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/names"
+	"github.com/jameinel/juju/utils"
 )
 
 // relationKey returns a string describing the relation defined by

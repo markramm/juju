@@ -10,14 +10,14 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/provider/dummy"
-	"launchpad.net/juju-core/state"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/worker"
-	"launchpad.net/juju-core/worker/addressupdater"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/juju/testing"
+	"github.com/jameinel/juju/provider/dummy"
+	"github.com/jameinel/juju/state"
+	coretesting "github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/testing/testbase"
+	"github.com/jameinel/juju/worker"
+	"github.com/jameinel/juju/worker/addressupdater"
 )
 
 var _ = gc.Suite(&workerSuite{})

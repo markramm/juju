@@ -6,8 +6,8 @@ package null
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/schema"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/schema"
 )
 
 const defaultStoragePort = 8040

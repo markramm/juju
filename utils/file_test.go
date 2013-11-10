@@ -6,8 +6,8 @@ package utils_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/juju/osenv"
+	"github.com/jameinel/juju/utils"
 )
 
 type fileSuite struct {

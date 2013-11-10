@@ -7,9 +7,9 @@ import (
 	stderrors "errors"
 	"fmt"
 
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api/params"
 )
 
 type notSupportedError struct {

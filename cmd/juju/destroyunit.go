@@ -7,9 +7,9 @@ import (
 	"errors"
 	"fmt"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/names"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/juju"
+	"github.com/jameinel/juju/names"
 )
 
 // DestroyUnitCommand is responsible for destroying service units.

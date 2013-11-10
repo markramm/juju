@@ -17,20 +17,20 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/configstore"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/environs/sync"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	envtools "launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/provider/dummy"
-	coretesting "launchpad.net/juju-core/testing"
-	jc "launchpad.net/juju-core/testing/checkers"
-	"launchpad.net/juju-core/testing/testbase"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/environs/configstore"
+	"github.com/jameinel/juju/environs/simplestreams"
+	"github.com/jameinel/juju/environs/storage"
+	"github.com/jameinel/juju/environs/sync"
+	envtesting "github.com/jameinel/juju/environs/testing"
+	envtools "github.com/jameinel/juju/environs/tools"
+	"github.com/jameinel/juju/provider/dummy"
+	coretesting "github.com/jameinel/juju/testing"
+	jc "github.com/jameinel/juju/testing/checkers"
+	"github.com/jameinel/juju/testing/testbase"
+	coretools "github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/version"
 )
 
 func TestPackage(t *testing.T) {
@@ -335,7 +335,7 @@ func (s *uploadSuite) TestUploadAndForceVersion(c *gc.C) {
 // file in this case).
 func (s *uploadSuite) TestUploadBadBuild(c *gc.C) {
 	gopath := c.MkDir()
-	join := append([]string{gopath, "src"}, strings.Split("launchpad.net/juju-core/cmd/broken", "/")...)
+	join := append([]string{gopath, "src"}, strings.Split("github.com/jameinel/juju/cmd/broken", "/")...)
 	pkgdir := filepath.Join(join...)
 	err := os.MkdirAll(pkgdir, 0777)
 	c.Assert(err, gc.IsNil)

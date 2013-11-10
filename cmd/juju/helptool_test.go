@@ -8,7 +8,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing"
+	"github.com/jameinel/juju/testing"
 )
 
 type HelpToolSuite struct {

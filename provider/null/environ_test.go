@@ -11,13 +11,13 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/manual"
-	"launchpad.net/juju-core/environs/sshstorage"
-	"launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/instance"
-	jc "launchpad.net/juju-core/testing/checkers"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/manual"
+	"github.com/jameinel/juju/environs/sshstorage"
+	"github.com/jameinel/juju/environs/tools"
+	"github.com/jameinel/juju/instance"
+	jc "github.com/jameinel/juju/testing/checkers"
+	"github.com/jameinel/juju/testing/testbase"
 )
 
 type environSuite struct {

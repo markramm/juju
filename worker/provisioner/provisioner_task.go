@@ -8,18 +8,18 @@ import (
 
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/cloudinit"
-	"launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state/api/params"
-	apiprovisioner "launchpad.net/juju-core/state/api/provisioner"
-	"launchpad.net/juju-core/state/watcher"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/worker"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/cloudinit"
+	"github.com/jameinel/juju/environs/tools"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/names"
+	"github.com/jameinel/juju/state/api/params"
+	apiprovisioner "github.com/jameinel/juju/state/api/provisioner"
+	"github.com/jameinel/juju/state/watcher"
+	coretools "github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/utils"
+	"github.com/jameinel/juju/worker"
 )
 
 type ProvisionerTask interface {

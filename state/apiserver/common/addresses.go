@@ -4,7 +4,7 @@
 package common
 
 import (
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/jameinel/juju/state/api/params"
 )
 
 // AddressAndCertGetter can be used to find out

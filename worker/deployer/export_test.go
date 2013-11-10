@@ -4,7 +4,7 @@
 package deployer
 
 import (
-	"launchpad.net/juju-core/agent"
+	"github.com/jameinel/juju/agent"
 )
 
 type fakeAddresser struct{}

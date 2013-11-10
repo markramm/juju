@@ -6,8 +6,8 @@
 package machine
 
 import (
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/apiserver/common"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/apiserver/common"
 )
 
 // MachinerAPI implements the API used by the machiner worker.

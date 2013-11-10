@@ -9,10 +9,10 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/juju/testing"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/juju/testing"
+	coretesting "github.com/jameinel/juju/testing"
 )
 
 type GetSuite struct {

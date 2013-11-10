@@ -16,9 +16,9 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/tomb"
 
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils/fslock"
+	coretesting "github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/testing/testbase"
+	"github.com/jameinel/juju/utils/fslock"
 )
 
 func Test(t *testing.T) {

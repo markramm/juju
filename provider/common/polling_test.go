@@ -9,9 +9,9 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/provider/common"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/provider/common"
+	"github.com/jameinel/juju/utils"
 )
 
 type pollingSuite struct {

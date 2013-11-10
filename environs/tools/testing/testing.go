@@ -15,11 +15,11 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/tools"
-	jc "launchpad.net/juju-core/testing/checkers"
-	"launchpad.net/juju-core/utils/set"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/environs/simplestreams"
+	"github.com/jameinel/juju/environs/tools"
+	jc "github.com/jameinel/juju/testing/checkers"
+	"github.com/jameinel/juju/utils/set"
+	"github.com/jameinel/juju/version"
 )
 
 // MakeTools creates some fake tools with the given version strings.

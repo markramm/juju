@@ -4,8 +4,8 @@
 package common
 
 import (
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api/params"
 )
 
 // StatusSetter implements a common SetStatus method for use by

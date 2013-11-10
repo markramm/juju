@@ -6,9 +6,9 @@ package main
 import (
 	gc "launchpad.net/gocheck"
 
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/testing"
+	jujutesting "github.com/jameinel/juju/juju/testing"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/testing"
 )
 
 type DestroyServiceSuite struct {

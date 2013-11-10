@@ -6,8 +6,8 @@ package main
 import (
 	"errors"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/juju"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/juju"
 )
 
 // UnexposeCommand is responsible exposing services.

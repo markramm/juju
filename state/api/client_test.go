@@ -6,7 +6,7 @@ package api_test
 import (
 	gc "launchpad.net/gocheck"
 
-	jujutesting "launchpad.net/juju-core/juju/testing"
+	jujutesting "github.com/jameinel/juju/juju/testing"
 )
 
 type clientSuite struct {

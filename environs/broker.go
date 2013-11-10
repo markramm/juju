@@ -4,10 +4,10 @@
 package environs
 
 import (
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/cloudinit"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/tools"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/environs/cloudinit"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/tools"
 )
 
 // TODO(wallyworld) - we want this in the environs/instance package but import loops

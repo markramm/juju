@@ -18,13 +18,13 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/juju/osenv"
-	_ "launchpad.net/juju-core/provider/dummy"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/juju/osenv"
+	_ "github.com/jameinel/juju/provider/dummy"
+	"github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/testing/testbase"
+	"github.com/jameinel/juju/version"
 )
 
 func TestPackage(t *stdtesting.T) {

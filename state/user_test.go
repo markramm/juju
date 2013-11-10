@@ -6,9 +6,9 @@ package state_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/state"
-	jc "launchpad.net/juju-core/testing/checkers"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/state"
+	jc "github.com/jameinel/juju/testing/checkers"
+	"github.com/jameinel/juju/utils"
 )
 
 type UserSuite struct {

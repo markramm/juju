@@ -5,7 +5,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/simplestreams"
+	"github.com/jameinel/juju/environs/simplestreams"
 )
 
 type jsonSuite struct{}

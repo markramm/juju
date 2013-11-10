@@ -6,14 +6,14 @@ package main
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	coretesting "launchpad.net/juju-core/testing"
-	jc "launchpad.net/juju-core/testing/checkers"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/juju/testing"
+	"github.com/jameinel/juju/state"
+	coretesting "github.com/jameinel/juju/testing"
+	jc "github.com/jameinel/juju/testing/checkers"
 )
 
 type DeploySuite struct {

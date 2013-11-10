@@ -10,9 +10,9 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/instance"
-	jc "launchpad.net/juju-core/testing/checkers"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/instance"
+	jc "github.com/jameinel/juju/testing/checkers"
 )
 
 func TestPackage(t *testing.T) {

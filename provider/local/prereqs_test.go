@@ -10,7 +10,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/jameinel/juju/testing/testbase"
 )
 
 type prereqsSuite struct {

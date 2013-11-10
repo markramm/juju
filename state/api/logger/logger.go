@@ -6,9 +6,9 @@ package logger
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/state/api/common"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/watcher"
+	"github.com/jameinel/juju/state/api/common"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/state/api/watcher"
 )
 
 // State provides access to an logger worker's view of the state.

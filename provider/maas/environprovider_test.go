@@ -9,10 +9,10 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/testing"
-	jc "launchpad.net/juju-core/testing/checkers"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/testing"
+	jc "github.com/jameinel/juju/testing/checkers"
+	"github.com/jameinel/juju/utils"
 )
 
 type EnvironProviderSuite struct {

@@ -12,16 +12,16 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/configstore"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/provider/dummy"
-	coretesting "launchpad.net/juju-core/testing"
-	jc "launchpad.net/juju-core/testing/checkers"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/configstore"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/juju/osenv"
+	"github.com/jameinel/juju/juju/testing"
+	"github.com/jameinel/juju/provider/dummy"
+	coretesting "github.com/jameinel/juju/testing"
+	jc "github.com/jameinel/juju/testing/checkers"
 )
 
 type CmdSuite struct {

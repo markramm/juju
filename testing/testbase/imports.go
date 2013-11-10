@@ -14,7 +14,7 @@ import (
 
 // FindJujuCoreImports returns a sorted list of juju-core packages that are
 // imported by the packageName parameter.  The resulting list removes the
-// common prefix "launchpad.net/juju-core/" leaving just the short names.
+// common prefix "github.com/jameinel/juju/" leaving just the short names.
 func FindJujuCoreImports(c *gc.C, packageName string) []string {
 	var imports []string
 
@@ -31,7 +31,7 @@ func FindJujuCoreImports(c *gc.C, packageName string) []string {
 	}
 
 	var result []string
-	const prefix = "launchpad.net/juju-core/"
+	const prefix = "github.com/jameinel/juju/"
 	for _, name := range imports {
 		if strings.HasPrefix(name, prefix) {
 			result = append(result, name[len(prefix):])

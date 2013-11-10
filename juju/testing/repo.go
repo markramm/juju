@@ -11,8 +11,8 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/state"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/state"
 )
 
 // RepoSuite acts as a JujuConnSuite but also sets up

@@ -6,8 +6,8 @@ package common_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/apiserver/common"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/apiserver/common"
 )
 
 type stateAddresserSuite struct {

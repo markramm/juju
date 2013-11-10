@@ -10,15 +10,15 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/charm"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	apiuniter "launchpad.net/juju-core/state/api/uniter"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/worker"
+	"github.com/jameinel/juju/charm"
+	jujutesting "github.com/jameinel/juju/juju/testing"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api"
+	"github.com/jameinel/juju/state/api/params"
+	apiuniter "github.com/jameinel/juju/state/api/uniter"
+	coretesting "github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/utils"
+	"github.com/jameinel/juju/worker"
 )
 
 type FilterSuite struct {

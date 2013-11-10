@@ -5,8 +5,8 @@ package local
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/utils"
 )
 
 var (

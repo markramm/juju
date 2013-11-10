@@ -9,10 +9,10 @@ import (
 
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/watcher"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/watcher"
 )
 
 var logger = loggo.GetLogger("juju.worker.addressupdater")

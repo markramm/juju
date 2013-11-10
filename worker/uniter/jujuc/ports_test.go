@@ -6,10 +6,10 @@ package jujuc_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils/set"
-	"launchpad.net/juju-core/worker/uniter/jujuc"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/utils/set"
+	"github.com/jameinel/juju/worker/uniter/jujuc"
 )
 
 type PortsSuite struct {

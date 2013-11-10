@@ -8,11 +8,11 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/charm/hooks"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/worker/uniter"
-	"launchpad.net/juju-core/worker/uniter/hook"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/charm/hooks"
+	"github.com/jameinel/juju/utils"
+	"github.com/jameinel/juju/worker/uniter"
+	"github.com/jameinel/juju/worker/uniter/hook"
 )
 
 type StateFileSuite struct{}

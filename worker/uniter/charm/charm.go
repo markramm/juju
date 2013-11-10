@@ -11,11 +11,11 @@ import (
 	"os"
 	"path"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/downloader"
-	"launchpad.net/juju-core/log"
-	"launchpad.net/juju-core/state/api/uniter"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/downloader"
+	"github.com/jameinel/juju/log"
+	"github.com/jameinel/juju/state/api/uniter"
+	"github.com/jameinel/juju/utils"
 )
 
 // BundlesDir is responsible for storing and retrieving charm bundles

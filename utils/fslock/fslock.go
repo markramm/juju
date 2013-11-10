@@ -20,8 +20,8 @@ import (
 	"regexp"
 	"time"
 
-	"launchpad.net/juju-core/log"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/log"
+	"github.com/jameinel/juju/utils"
 )
 
 const (

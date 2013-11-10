@@ -6,13 +6,13 @@ package imagemetadata_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/configstore"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	sstesting "launchpad.net/juju-core/environs/simplestreams/testing"
-	"launchpad.net/juju-core/provider/dummy"
-	"launchpad.net/juju-core/testing"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/environs/configstore"
+	"github.com/jameinel/juju/environs/imagemetadata"
+	sstesting "github.com/jameinel/juju/environs/simplestreams/testing"
+	"github.com/jameinel/juju/provider/dummy"
+	"github.com/jameinel/juju/testing"
 )
 
 type URLsSuite struct {

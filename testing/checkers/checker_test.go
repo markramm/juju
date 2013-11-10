@@ -8,7 +8,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	jc "launchpad.net/juju-core/testing/checkers"
+	jc "github.com/jameinel/juju/testing/checkers"
 )
 
 func Test(t *testing.T) { gc.TestingT(t) }

@@ -9,8 +9,8 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/state/apiserver/common"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/jameinel/juju/state/apiserver/common"
+	coretesting "github.com/jameinel/juju/testing"
 )
 
 func TestAll(t *stdtesting.T) {

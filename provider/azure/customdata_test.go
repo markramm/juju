@@ -8,14 +8,14 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/cloudinit"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/tools"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/cloudinit"
+	"github.com/jameinel/juju/names"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api"
+	"github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/testing/testbase"
+	"github.com/jameinel/juju/tools"
 )
 
 type customDataSuite struct {

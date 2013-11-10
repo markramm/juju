@@ -9,7 +9,7 @@ package imagemetadata
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/environs/simplestreams"
+	"github.com/jameinel/juju/environs/simplestreams"
 )
 
 func init() {

@@ -13,17 +13,17 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/presence"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/juju"
+	"github.com/jameinel/juju/juju/testing"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/state/presence"
+	coretesting "github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/version"
 )
 
 func runStatus(c *gc.C, args ...string) (code int, stdout, stderr []byte) {

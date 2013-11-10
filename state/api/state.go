@@ -4,14 +4,14 @@
 package api
 
 import (
-	"launchpad.net/juju-core/state/api/agent"
-	"launchpad.net/juju-core/state/api/deployer"
-	"launchpad.net/juju-core/state/api/logger"
-	"launchpad.net/juju-core/state/api/machiner"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/provisioner"
-	"launchpad.net/juju-core/state/api/uniter"
-	"launchpad.net/juju-core/state/api/upgrader"
+	"github.com/jameinel/juju/state/api/agent"
+	"github.com/jameinel/juju/state/api/deployer"
+	"github.com/jameinel/juju/state/api/logger"
+	"github.com/jameinel/juju/state/api/machiner"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/state/api/provisioner"
+	"github.com/jameinel/juju/state/api/uniter"
+	"github.com/jameinel/juju/state/api/upgrader"
 )
 
 // Login authenticates as the entity with the given name and password.

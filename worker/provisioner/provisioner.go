@@ -10,15 +10,15 @@ import (
 	"launchpad.net/loggo"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
-	apiprovisioner "launchpad.net/juju-core/state/api/provisioner"
-	apiwatcher "launchpad.net/juju-core/state/api/watcher"
-	"launchpad.net/juju-core/state/watcher"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/worker"
+	"github.com/jameinel/juju/agent"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/instance"
+	apiprovisioner "github.com/jameinel/juju/state/api/provisioner"
+	apiwatcher "github.com/jameinel/juju/state/api/watcher"
+	"github.com/jameinel/juju/state/watcher"
+	coretools "github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/worker"
 )
 
 type ProvisionerType string

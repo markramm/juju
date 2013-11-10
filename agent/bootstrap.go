@@ -6,12 +6,12 @@ package agent
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/names"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/version"
 )
 
 // InitializeState should be called on the bootstrap machine's agent

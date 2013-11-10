@@ -4,8 +4,8 @@
 package common
 
 import (
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api/params"
 )
 
 // LifeGetter implements a common Life method for use by various facades.

@@ -6,13 +6,13 @@ package manual
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/config"
-	envtools "launchpad.net/juju-core/environs/tools"
-	_ "launchpad.net/juju-core/provider/dummy"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/environs/config"
+	envtools "github.com/jameinel/juju/environs/tools"
+	_ "github.com/jameinel/juju/provider/dummy"
+	coretesting "github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/testing/testbase"
+	"github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/version"
 )
 
 type agentSuite struct {

@@ -9,10 +9,10 @@ import (
 	"launchpad.net/loggo"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/httpstorage"
-	"launchpad.net/juju-core/worker"
+	"github.com/jameinel/juju/agent"
+	"github.com/jameinel/juju/environs/filestorage"
+	"github.com/jameinel/juju/environs/httpstorage"
+	"github.com/jameinel/juju/worker"
 )
 
 var logger = loggo.GetLogger("juju.worker.localstorage")

@@ -10,7 +10,7 @@ import (
 
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/rpc"
+	"github.com/jameinel/juju/rpc"
 )
 
 var logger = loggo.GetLogger("juju.rpc.jsoncodec")

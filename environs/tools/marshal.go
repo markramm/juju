@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"time"
 
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/utils/set"
+	"github.com/jameinel/juju/environs/simplestreams"
+	"github.com/jameinel/juju/utils/set"
 )
 
 const (

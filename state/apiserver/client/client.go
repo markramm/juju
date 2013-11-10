@@ -9,16 +9,16 @@ import (
 
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
-	"launchpad.net/juju-core/worker/provisioner"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/juju"
+	"github.com/jameinel/juju/names"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/state/apiserver/common"
+	"github.com/jameinel/juju/worker/provisioner"
 )
 
 var logger = loggo.GetLogger("juju.state.apiserver.client")

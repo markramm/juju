@@ -6,7 +6,7 @@ package state
 import (
 	"labix.org/v2/mgo"
 
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/jameinel/juju/state/api/params"
 )
 
 // Life represents the lifecycle state of the entities

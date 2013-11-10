@@ -22,9 +22,9 @@ import (
 	"labix.org/v2/mgo"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cert"
-	"launchpad.net/juju-core/log"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/cert"
+	"github.com/jameinel/juju/log"
+	"github.com/jameinel/juju/utils"
 )
 
 var (

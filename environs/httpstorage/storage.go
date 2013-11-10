@@ -16,9 +16,9 @@ import (
 	"strings"
 	"sync"
 
-	"launchpad.net/juju-core/environs/storage"
-	coreerrors "launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/environs/storage"
+	coreerrors "github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/utils"
 )
 
 // storage implements the storage.Storage interface.

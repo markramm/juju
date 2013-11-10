@@ -13,9 +13,9 @@ import (
 	"strconv"
 	"strings"
 
-	"launchpad.net/juju-core/charm/hooks"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/worker/uniter/hook"
+	"github.com/jameinel/juju/charm/hooks"
+	"github.com/jameinel/juju/utils"
+	"github.com/jameinel/juju/worker/uniter/hook"
 )
 
 // State describes the state of a relation.

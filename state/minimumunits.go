@@ -8,7 +8,7 @@ import (
 
 	"labix.org/v2/mgo/txn"
 
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/utils"
 )
 
 // minUnitsDoc keeps track of relevant changes on the service's MinUnits field

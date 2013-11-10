@@ -8,15 +8,15 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/cmd"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/worker"
+	"github.com/jameinel/juju/agent"
+	"github.com/jameinel/juju/cmd"
+	jujutesting "github.com/jameinel/juju/juju/testing"
+	"github.com/jameinel/juju/names"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api/params"
+	coretesting "github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/worker"
 )
 
 type UnitSuite struct {

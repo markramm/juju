@@ -10,10 +10,10 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/juju/testing"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/worker"
-	"launchpad.net/juju-core/worker/minunitsworker"
+	"github.com/jameinel/juju/juju/testing"
+	coretesting "github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/worker"
+	"github.com/jameinel/juju/worker/minunitsworker"
 )
 
 var logger = loggo.GetLogger("juju.worker.minunitsworker_test")

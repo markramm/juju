@@ -10,12 +10,12 @@ import (
 
 	"code.google.com/p/go.net/websocket"
 
-	"launchpad.net/juju-core/cert"
-	"launchpad.net/juju-core/log"
-	"launchpad.net/juju-core/rpc"
-	"launchpad.net/juju-core/rpc/jsoncodec"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/cert"
+	"github.com/jameinel/juju/log"
+	"github.com/jameinel/juju/rpc"
+	"github.com/jameinel/juju/rpc/jsoncodec"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/utils"
 )
 
 // PingPeriod defines how often the internal connection health check

@@ -6,8 +6,8 @@ package agent_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/jameinel/juju/agent"
+	"github.com/jameinel/juju/testing/testbase"
 )
 
 type suite struct {

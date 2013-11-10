@@ -8,10 +8,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/tools"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/tools"
 )
 
 // ErrorResults holds the results of calling a bulk operation which

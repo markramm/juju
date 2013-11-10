@@ -4,10 +4,10 @@
 package params
 
 import (
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/version"
 )
 
 // Entity identifies a single entity.

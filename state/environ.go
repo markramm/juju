@@ -7,8 +7,8 @@ import (
 	"labix.org/v2/mgo"
 	"labix.org/v2/mgo/txn"
 
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/names"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/names"
 )
 
 // environGlobalKey is the key for the environment, its

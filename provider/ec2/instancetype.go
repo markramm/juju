@@ -6,7 +6,7 @@ package ec2
 import (
 	"launchpad.net/goamz/aws"
 
-	"launchpad.net/juju-core/environs/instances"
+	"github.com/jameinel/juju/environs/instances"
 )
 
 // Type of virtualisation used.

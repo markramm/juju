@@ -12,8 +12,8 @@ import (
 	"text/template"
 	"time"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/simplestreams"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/environs/simplestreams"
 )
 
 const (

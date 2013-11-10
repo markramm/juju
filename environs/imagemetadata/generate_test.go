@@ -8,12 +8,12 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/imagemetadata/testing"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/jameinel/juju/environs/filestorage"
+	"github.com/jameinel/juju/environs/imagemetadata"
+	"github.com/jameinel/juju/environs/imagemetadata/testing"
+	"github.com/jameinel/juju/environs/simplestreams"
+	"github.com/jameinel/juju/environs/storage"
+	"github.com/jameinel/juju/testing/testbase"
 )
 
 var _ = gc.Suite(&generateSuite{})

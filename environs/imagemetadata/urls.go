@@ -4,8 +4,8 @@
 package imagemetadata
 
 import (
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/simplestreams"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/simplestreams"
 )
 
 // SupportsCustomSources represents an environment that

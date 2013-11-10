@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"launchpad.net/juju-core/charm"
+	"github.com/jameinel/juju/charm"
 )
 
 // PublishBazaarBranch checks out the Bazaar branch from burl and

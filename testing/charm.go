@@ -10,11 +10,11 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"launchpad.net/juju-core/charm"
+	"github.com/jameinel/juju/charm"
 )
 
 func init() {
-	p, err := build.Import("launchpad.net/juju-core/testing", "", build.FindOnly)
+	p, err := build.Import("github.com/jameinel/juju/testing", "", build.FindOnly)
 	check(err)
 	Charms = &Repo{Path: filepath.Join(p.Dir, "repo")}
 }

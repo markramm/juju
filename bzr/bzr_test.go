@@ -10,7 +10,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/bzr"
+	"github.com/jameinel/juju/bzr"
 )
 
 func Test(t *testing.T) {

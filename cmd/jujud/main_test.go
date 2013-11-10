@@ -17,10 +17,10 @@ import (
 	"launchpad.net/gnuflag"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/worker/uniter/jujuc"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/worker/uniter/jujuc"
 )
 
 var caCertFile string
@@ -152,7 +152,7 @@ func run(c *gc.C, sockPath string, contextId string, exit int, cmd ...string) st
 	ps.Env = []string{
 		fmt.Sprintf("JUJU_AGENT_SOCKET=%s", sockPath),
 		fmt.Sprintf("JUJU_CONTEXT_ID=%s", contextId),
-		// Code that imports launchpad.net/juju-core/testing needs to
+		// Code that imports github.com/jameinel/juju/testing needs to
 		// be able to find that module at runtime (via build.Import),
 		// so we have to preserve that env variable.
 		os.ExpandEnv("GOPATH=${GOPATH}"),

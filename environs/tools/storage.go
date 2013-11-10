@@ -7,9 +7,9 @@ import (
 	"errors"
 	"strings"
 
-	"launchpad.net/juju-core/environs/storage"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/environs/storage"
+	coretools "github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/version"
 )
 
 var ErrNoTools = errors.New("no tools available")

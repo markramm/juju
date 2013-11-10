@@ -4,9 +4,9 @@
 package openstack
 
 import (
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/instances"
-	"launchpad.net/juju-core/environs/simplestreams"
+	"github.com/jameinel/juju/environs/imagemetadata"
+	"github.com/jameinel/juju/environs/instances"
+	"github.com/jameinel/juju/environs/simplestreams"
 )
 
 // findInstanceSpec returns an image and instance type satisfying the constraint.

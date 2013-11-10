@@ -9,7 +9,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	jc "launchpad.net/juju-core/testing/checkers"
+	jc "github.com/jameinel/juju/testing/checkers"
 )
 
 // NotifyAsserterC gives helper functions for making assertions about how a

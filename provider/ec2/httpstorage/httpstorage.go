@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/environs/storage"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/utils"
 )
 
 var storageAttempt = utils.AttemptStrategy{

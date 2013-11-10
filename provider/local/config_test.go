@@ -11,11 +11,11 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/provider"
-	"launchpad.net/juju-core/provider/local"
-	"launchpad.net/juju-core/testing"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/juju/osenv"
+	"github.com/jameinel/juju/provider"
+	"github.com/jameinel/juju/provider/local"
+	"github.com/jameinel/juju/testing"
 )
 
 type configSuite struct {

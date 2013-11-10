@@ -10,18 +10,18 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/bootstrap"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/configstore"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/provider/dummy"
-	"launchpad.net/juju-core/state/api"
-	coretesting "launchpad.net/juju-core/testing"
-	jc "launchpad.net/juju-core/testing/checkers"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/bootstrap"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/environs/configstore"
+	envtesting "github.com/jameinel/juju/environs/testing"
+	"github.com/jameinel/juju/juju"
+	"github.com/jameinel/juju/provider/dummy"
+	"github.com/jameinel/juju/state/api"
+	coretesting "github.com/jameinel/juju/testing"
+	jc "github.com/jameinel/juju/testing/checkers"
+	"github.com/jameinel/juju/testing/testbase"
 )
 
 type NewAPIConnSuite struct {

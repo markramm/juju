@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"strings"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/schema"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/schema"
 )
 
 var configFields = schema.Fields{

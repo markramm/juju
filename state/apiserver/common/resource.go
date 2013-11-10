@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"sync"
 
-	"launchpad.net/juju-core/log"
+	"github.com/jameinel/juju/log"
 )
 
 // Resource represents any resource that should be cleaned up when an

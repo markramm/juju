@@ -13,12 +13,12 @@ import (
 	"labix.org/v2/mgo/bson"
 	"labix.org/v2/mgo/txn"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/names"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/utils"
 )
 
 // Service represents the state of a service.

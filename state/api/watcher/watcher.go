@@ -8,9 +8,9 @@ import (
 
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/log"
-	"launchpad.net/juju-core/state/api/common"
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/jameinel/juju/log"
+	"github.com/jameinel/juju/state/api/common"
+	"github.com/jameinel/juju/state/api/params"
 )
 
 // commonWatcher implements common watcher logic in one place to

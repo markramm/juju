@@ -6,7 +6,7 @@ package local
 import (
 	"net"
 
-	"launchpad.net/juju-core/environs"
+	"github.com/jameinel/juju/environs"
 )
 
 func Listen(basepath, environName, ip string, port int) (net.Listener, error) {

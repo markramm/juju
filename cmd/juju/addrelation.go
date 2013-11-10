@@ -6,8 +6,8 @@ package main
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/juju"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/juju"
 )
 
 // AddRelationCommand adds a relation between two service endpoints.

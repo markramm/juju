@@ -9,9 +9,9 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/lpad"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/store"
-	"launchpad.net/juju-core/testing"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/store"
+	"github.com/jameinel/juju/testing"
 )
 
 var jsonType = map[string]string{

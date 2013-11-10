@@ -11,10 +11,10 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/bzr"
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/log"
+	"github.com/jameinel/juju/bzr"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/log"
 )
 
 type PublishCommand struct {

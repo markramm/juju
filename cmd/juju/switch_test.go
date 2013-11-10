@@ -8,9 +8,9 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	_ "launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/testing"
+	"github.com/jameinel/juju/cmd"
+	_ "github.com/jameinel/juju/juju"
+	"github.com/jameinel/juju/testing"
 )
 
 type SwitchSimpleSuite struct {

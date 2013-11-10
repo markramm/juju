@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"strings"
 
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/version"
 )
 
 var notLinuxError = errors.New("The local provider is currently only available for Linux")

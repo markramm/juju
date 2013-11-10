@@ -6,11 +6,11 @@ package provisioner
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/state/api/common"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/watcher"
-	"launchpad.net/juju-core/tools"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/state/api/common"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/state/api/watcher"
+	"github.com/jameinel/juju/tools"
 )
 
 // State provides access to the Machiner API facade.

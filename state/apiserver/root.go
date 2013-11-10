@@ -4,17 +4,17 @@
 package apiserver
 
 import (
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/apiserver/agent"
-	"launchpad.net/juju-core/state/apiserver/client"
-	"launchpad.net/juju-core/state/apiserver/common"
-	"launchpad.net/juju-core/state/apiserver/deployer"
-	loggerapi "launchpad.net/juju-core/state/apiserver/logger"
-	"launchpad.net/juju-core/state/apiserver/machine"
-	"launchpad.net/juju-core/state/apiserver/provisioner"
-	"launchpad.net/juju-core/state/apiserver/uniter"
-	"launchpad.net/juju-core/state/apiserver/upgrader"
-	"launchpad.net/juju-core/state/multiwatcher"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/apiserver/agent"
+	"github.com/jameinel/juju/state/apiserver/client"
+	"github.com/jameinel/juju/state/apiserver/common"
+	"github.com/jameinel/juju/state/apiserver/deployer"
+	loggerapi "github.com/jameinel/juju/state/apiserver/logger"
+	"github.com/jameinel/juju/state/apiserver/machine"
+	"github.com/jameinel/juju/state/apiserver/provisioner"
+	"github.com/jameinel/juju/state/apiserver/uniter"
+	"github.com/jameinel/juju/state/apiserver/upgrader"
+	"github.com/jameinel/juju/state/multiwatcher"
 )
 
 type clientAPI struct{ *client.API }

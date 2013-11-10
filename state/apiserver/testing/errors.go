@@ -4,7 +4,7 @@
 package testing
 
 import (
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/jameinel/juju/state/api/params"
 )
 
 var ErrUnauthorized = &params.Error{

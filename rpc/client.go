@@ -157,7 +157,7 @@ func (conn *Conn) Go(req Request, args, response interface{}, done chan *Call) *
 		// RPCs that will be using that channel.  If the channel
 		// is totally unbuffered, it's best not to run at all.
 		if cap(done) == 0 {
-			panic("launchpad.net/juju-core/rpc: done channel is unbuffered")
+			panic("github.com/jameinel/juju/rpc: done channel is unbuffered")
 		}
 	}
 	call := &Call{

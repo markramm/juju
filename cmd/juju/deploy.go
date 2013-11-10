@@ -10,12 +10,12 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/names"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/juju"
+	"github.com/jameinel/juju/juju/osenv"
+	"github.com/jameinel/juju/names"
 )
 
 type DeployCommand struct {

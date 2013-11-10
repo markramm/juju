@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"launchpad.net/juju-core/cert"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/configstore"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/errors"
+	"github.com/jameinel/juju/cert"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/environs/configstore"
+	"github.com/jameinel/juju/environs/storage"
+	"github.com/jameinel/juju/errors"
 )
 
 // File named `VerificationFilename` in the storage will contain
@@ -62,7 +62,7 @@ func ConfigForName(name string, store configstore.Storage) (*config.Config, Conf
 	if name == "" {
 		name = envs.Default
 	}
-	// TODO(rog) 2013-10-04 https://bugs.launchpad.net/juju-core/+bug/1235217
+	// TODO(rog) 2013-10-04 https://bugs.github.com/jameinel/juju/+bug/1235217
 	// Don't fall back to reading from environments.yaml
 	// when we can be sure that everyone has a
 	// .jenv file for their currently bootstrapped environments.

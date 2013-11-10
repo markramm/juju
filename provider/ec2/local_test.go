@@ -16,25 +16,25 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/bootstrap"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/configstore"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/jujutest"
-	"launchpad.net/juju-core/environs/simplestreams"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	"launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/provider/common"
-	"launchpad.net/juju-core/provider/ec2"
-	coretesting "launchpad.net/juju-core/testing"
-	jc "launchpad.net/juju-core/testing/checkers"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/bootstrap"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/environs/configstore"
+	"github.com/jameinel/juju/environs/imagemetadata"
+	"github.com/jameinel/juju/environs/jujutest"
+	"github.com/jameinel/juju/environs/simplestreams"
+	envtesting "github.com/jameinel/juju/environs/testing"
+	"github.com/jameinel/juju/environs/tools"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/juju/testing"
+	"github.com/jameinel/juju/provider/common"
+	"github.com/jameinel/juju/provider/ec2"
+	coretesting "github.com/jameinel/juju/testing"
+	jc "github.com/jameinel/juju/testing/checkers"
+	"github.com/jameinel/juju/testing/testbase"
+	"github.com/jameinel/juju/utils"
+	"github.com/jameinel/juju/version"
 )
 
 type ProviderSuite struct{}
@@ -105,7 +105,7 @@ func (t *localLiveSuite) TearDownSuite(c *gc.C) {
 }
 
 func (t *LiveTests) TestStartInstanceOnUnknownPlatform(c *gc.C) {
-	c.Skip("broken under ec2 - see https://bugs.launchpad.net/juju-core/+bug/1233278")
+	c.Skip("broken under ec2 - see https://bugs.github.com/jameinel/juju/+bug/1233278")
 }
 
 // localServer represents a fake EC2 server running within

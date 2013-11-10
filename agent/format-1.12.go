@@ -11,9 +11,9 @@ import (
 
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api"
+	"github.com/jameinel/juju/utils"
 )
 
 const format_1_12 = "format 1.12"

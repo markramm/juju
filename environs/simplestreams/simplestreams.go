@@ -25,7 +25,7 @@ import (
 
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/errors"
+	"github.com/jameinel/juju/errors"
 )
 
 var logger = loggo.GetLogger("juju.environs.simplestreams")

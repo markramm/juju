@@ -7,9 +7,9 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/container/lxc"
-	"launchpad.net/juju-core/provider/local"
-	"launchpad.net/juju-core/testing"
+	"github.com/jameinel/juju/container/lxc"
+	"github.com/jameinel/juju/provider/local"
+	"github.com/jameinel/juju/testing"
 )
 
 type baseProviderSuite struct {

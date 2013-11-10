@@ -9,11 +9,11 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/gwacl"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/instances"
-	"launchpad.net/juju-core/environs/jujutest"
-	"launchpad.net/juju-core/environs/simplestreams"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/environs/imagemetadata"
+	"github.com/jameinel/juju/environs/instances"
+	"github.com/jameinel/juju/environs/jujutest"
+	"github.com/jameinel/juju/environs/simplestreams"
 )
 
 type instanceTypeSuite struct{}

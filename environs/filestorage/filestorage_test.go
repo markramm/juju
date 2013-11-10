@@ -16,10 +16,10 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/storage"
-	coreerrors "launchpad.net/juju-core/errors"
-	jc "launchpad.net/juju-core/testing/checkers"
+	"github.com/jameinel/juju/environs/filestorage"
+	"github.com/jameinel/juju/environs/storage"
+	coreerrors "github.com/jameinel/juju/errors"
+	jc "github.com/jameinel/juju/testing/checkers"
 )
 
 func TestPackage(t *testing.T) {

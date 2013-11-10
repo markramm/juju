@@ -10,9 +10,9 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/worker/uniter/jujuc"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/worker/uniter/jujuc"
 )
 
 type RelationGetSuite struct {

@@ -6,14 +6,14 @@ package provisioner
 import (
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/container/lxc"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/cloudinit"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/tools"
+	"github.com/jameinel/juju/agent"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/container/lxc"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/cloudinit"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/tools"
 )
 
 var lxcLogger = loggo.GetLogger("juju.provisioner.lxc")

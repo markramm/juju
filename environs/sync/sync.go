@@ -15,13 +15,13 @@ import (
 
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	envtools "launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/provider/ec2/httpstorage"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/environs/filestorage"
+	"github.com/jameinel/juju/environs/simplestreams"
+	"github.com/jameinel/juju/environs/storage"
+	envtools "github.com/jameinel/juju/environs/tools"
+	"github.com/jameinel/juju/provider/ec2/httpstorage"
+	coretools "github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/version"
 )
 
 var logger = loggo.GetLogger("juju.environs.sync")

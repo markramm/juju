@@ -9,11 +9,11 @@ import (
 
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/configstore"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/state/api"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/environs/configstore"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/state/api"
 )
 
 var logger = loggo.GetLogger("juju")

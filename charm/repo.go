@@ -16,8 +16,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"launchpad.net/juju-core/log"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/log"
+	"github.com/jameinel/juju/utils"
 )
 
 // CacheDir stores the charm cache directory path.

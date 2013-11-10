@@ -15,15 +15,15 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/agent/tools"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/testing"
-	jc "launchpad.net/juju-core/testing/checkers"
-	"launchpad.net/juju-core/testing/testbase"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
-	"launchpad.net/juju-core/worker/deployer"
+	"github.com/jameinel/juju/agent"
+	"github.com/jameinel/juju/agent/tools"
+	"github.com/jameinel/juju/names"
+	"github.com/jameinel/juju/testing"
+	jc "github.com/jameinel/juju/testing/checkers"
+	"github.com/jameinel/juju/testing/testbase"
+	coretools "github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/version"
+	"github.com/jameinel/juju/worker/deployer"
 )
 
 type SimpleContextSuite struct {

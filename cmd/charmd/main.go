@@ -12,7 +12,7 @@ import (
 
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/store"
+	"github.com/jameinel/juju/store"
 )
 
 func main() {

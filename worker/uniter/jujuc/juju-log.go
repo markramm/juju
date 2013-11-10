@@ -10,8 +10,8 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/log"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/log"
 )
 
 // JujuLogCommand implements the juju-log command.

@@ -11,9 +11,9 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/jujutest"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/jameinel/juju/environs/jujutest"
+	"github.com/jameinel/juju/environs/simplestreams"
+	"github.com/jameinel/juju/testing/testbase"
 )
 
 var PrivateKeyPassphrase = "12345"

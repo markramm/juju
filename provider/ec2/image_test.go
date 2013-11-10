@@ -6,11 +6,11 @@ package ec2
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/instances"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/environs/imagemetadata"
+	"github.com/jameinel/juju/environs/instances"
+	"github.com/jameinel/juju/environs/simplestreams"
+	"github.com/jameinel/juju/testing/testbase"
 )
 
 type imageSuite struct {

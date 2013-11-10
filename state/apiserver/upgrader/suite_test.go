@@ -4,7 +4,7 @@
 package upgrader_test
 
 import (
-	coretesting "launchpad.net/juju-core/testing"
+	coretesting "github.com/jameinel/juju/testing"
 	stdtesting "testing"
 )
 

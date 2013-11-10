@@ -11,7 +11,7 @@ import (
 	"labix.org/v2/mgo"
 	"labix.org/v2/mgo/txn"
 
-	"launchpad.net/juju-core/errors"
+	"github.com/jameinel/juju/errors"
 )
 
 // See: http://docs.mongodb.org/manual/faq/developers/#faq-dollar-sign-escaping

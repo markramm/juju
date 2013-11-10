@@ -12,7 +12,7 @@ import (
 	"launchpad.net/gnuflag"
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/juju/osenv"
+	"github.com/jameinel/juju/juju/osenv"
 )
 
 // Log supplies the necessary functionality for Commands that wish to set up

@@ -8,10 +8,10 @@ import (
 	"os/exec"
 	"time"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/juju"
+	"github.com/jameinel/juju/state/api"
+	"github.com/jameinel/juju/utils"
 )
 
 // SSHCommand is responsible for launching a ssh shell on a given unit or machine.

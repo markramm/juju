@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"launchpad.net/juju-core/instance"
+	"github.com/jameinel/juju/instance"
 )
 
 // Value describes a user's requirements of the hardware on which units

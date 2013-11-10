@@ -6,9 +6,9 @@ package agent
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state/api/common"
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/state/api/common"
+	"github.com/jameinel/juju/state/api/params"
 )
 
 // State provides access to an agent's view of the state.

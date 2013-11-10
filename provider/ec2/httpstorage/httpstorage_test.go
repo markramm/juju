@@ -10,10 +10,10 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/storage"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	"launchpad.net/juju-core/provider/ec2/httpstorage"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/environs/storage"
+	envtesting "github.com/jameinel/juju/environs/testing"
+	"github.com/jameinel/juju/provider/ec2/httpstorage"
+	"github.com/jameinel/juju/version"
 )
 
 func TestPackage(t *testing.T) {

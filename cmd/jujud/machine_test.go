@@ -10,27 +10,27 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/container/lxc"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/provider/dummy"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	apideployer "launchpad.net/juju-core/state/api/deployer"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/testing"
-	jc "launchpad.net/juju-core/testing/checkers"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
-	"launchpad.net/juju-core/worker/addressupdater"
-	"launchpad.net/juju-core/worker/deployer"
+	"github.com/jameinel/juju/agent"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/container/lxc"
+	envtesting "github.com/jameinel/juju/environs/testing"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/names"
+	"github.com/jameinel/juju/provider/dummy"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api"
+	apideployer "github.com/jameinel/juju/state/api/deployer"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/state/watcher"
+	"github.com/jameinel/juju/testing"
+	jc "github.com/jameinel/juju/testing/checkers"
+	"github.com/jameinel/juju/testing/testbase"
+	"github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/version"
+	"github.com/jameinel/juju/worker/addressupdater"
+	"github.com/jameinel/juju/worker/deployer"
 )
 
 type MachineSuite struct {
@@ -176,7 +176,7 @@ func (s *MachineSuite) TestDyingMachine(c *gc.C) {
 		c.Assert(err, gc.IsNil)
 	case <-time.After(watcher.Period * 5 / 4):
 		// TODO(rog) Fix this so it doesn't wait for so long.
-		// https://bugs.launchpad.net/juju-core/+bug/1163983
+		// https://bugs.github.com/jameinel/juju/+bug/1163983
 		c.Fatalf("timed out waiting for agent to terminate")
 	}
 	err = m.Refresh()

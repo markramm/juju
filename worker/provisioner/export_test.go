@@ -4,7 +4,7 @@
 package provisioner
 
 import (
-	"launchpad.net/juju-core/environs/config"
+	"github.com/jameinel/juju/environs/config"
 )
 
 func (o *configObserver) SetObserver(observer chan<- *config.Config) {

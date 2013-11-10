@@ -6,8 +6,8 @@ package apiserver_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/rpc/rpcreflect"
-	"launchpad.net/juju-core/state/apiserver"
+	"github.com/jameinel/juju/rpc/rpcreflect"
+	"github.com/jameinel/juju/state/apiserver"
 )
 
 type rootSuite struct{}

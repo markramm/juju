@@ -6,11 +6,11 @@ package logger_test
 import (
 	gc "launchpad.net/gocheck"
 
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/logger"
-	"launchpad.net/juju-core/state/testing"
+	jujutesting "github.com/jameinel/juju/juju/testing"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api"
+	"github.com/jameinel/juju/state/api/logger"
+	"github.com/jameinel/juju/state/testing"
 )
 
 type loggerSuite struct {

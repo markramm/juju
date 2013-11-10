@@ -6,9 +6,9 @@ package main
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/names"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/juju"
+	"github.com/jameinel/juju/names"
 )
 
 // DestroyMachineCommand causes an existing machine to be destroyed.

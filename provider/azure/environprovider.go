@@ -10,8 +10,8 @@ import (
 
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/config"
 )
 
 // Register the Azure provider with Juju.

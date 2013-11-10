@@ -6,16 +6,16 @@ package agent_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/testing"
-	jc "launchpad.net/juju-core/testing/checkers"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/agent"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/testing"
+	jc "github.com/jameinel/juju/testing/checkers"
+	"github.com/jameinel/juju/testing/testbase"
+	"github.com/jameinel/juju/utils"
+	"github.com/jameinel/juju/version"
 )
 
 type bootstrapSuite struct {

@@ -12,10 +12,10 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/environs/simplestreams"
-	sstesting "launchpad.net/juju-core/environs/simplestreams/testing"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/environs/simplestreams"
+	sstesting "github.com/jameinel/juju/environs/simplestreams/testing"
+	coretesting "github.com/jameinel/juju/testing"
 	"strings"
 )
 

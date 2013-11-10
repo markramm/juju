@@ -6,8 +6,8 @@ package tools
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/environs/simplestreams"
+	"github.com/jameinel/juju/version"
 )
 
 // ToolsMetadataLookupParams is used to query metadata for matching tools.

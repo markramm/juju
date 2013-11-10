@@ -12,7 +12,7 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/log"
+	"github.com/jameinel/juju/log"
 )
 
 type topic struct {

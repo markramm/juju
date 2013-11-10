@@ -14,10 +14,10 @@ import (
 	"strings"
 
 	"launchpad.net/gnuflag"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/log"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/juju/osenv"
+	"github.com/jameinel/juju/log"
 )
 
 const JujuPluginPrefix = "juju-"

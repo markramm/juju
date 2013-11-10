@@ -9,7 +9,7 @@ import (
 
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/log"
+	"github.com/jameinel/juju/log"
 )
 
 // defaultInterval is the standard value for the interval setting.

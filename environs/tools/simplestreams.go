@@ -15,12 +15,12 @@ import (
 	"strings"
 	"time"
 
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/errors"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils/set"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/environs/simplestreams"
+	"github.com/jameinel/juju/environs/storage"
+	"github.com/jameinel/juju/errors"
+	coretools "github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/utils/set"
+	"github.com/jameinel/juju/version"
 )
 
 func init() {

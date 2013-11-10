@@ -6,9 +6,9 @@ package client
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/environs"
-	envtools "launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/tools"
+	"github.com/jameinel/juju/environs"
+	envtools "github.com/jameinel/juju/environs/tools"
+	"github.com/jameinel/juju/tools"
 )
 
 func findInstanceTools(env environs.Environ, series, arch string) (*tools.Tools, error) {

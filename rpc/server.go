@@ -12,7 +12,7 @@ import (
 
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/rpc/rpcreflect"
+	"github.com/jameinel/juju/rpc/rpcreflect"
 )
 
 var logger = loggo.GetLogger("juju.rpc")

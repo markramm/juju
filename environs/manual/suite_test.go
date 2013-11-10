@@ -6,7 +6,7 @@ package manual
 import (
 	stdtesting "testing"
 
-	"launchpad.net/juju-core/testing"
+	"github.com/jameinel/juju/testing"
 )
 
 func Test(t *stdtesting.T) {

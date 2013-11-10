@@ -4,7 +4,7 @@
 package upgrader
 
 import (
-	"launchpad.net/juju-core/tools"
+	"github.com/jameinel/juju/tools"
 )
 
 var RetryAfter = &retryAfter

@@ -4,7 +4,7 @@
 package common
 
 import (
-	"launchpad.net/juju-core/state"
+	"github.com/jameinel/juju/state"
 )
 
 // AuthFunc returns whether the given entity is available to some operation.

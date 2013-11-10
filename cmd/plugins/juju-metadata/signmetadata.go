@@ -13,9 +13,9 @@ import (
 	"launchpad.net/gnuflag"
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/environs/simplestreams"
+	"github.com/jameinel/juju/utils"
 )
 
 var signMetadataDoc = `

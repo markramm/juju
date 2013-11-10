@@ -4,7 +4,7 @@
 package worker
 
 import (
-	"launchpad.net/juju-core/state/watcher"
+	"github.com/jameinel/juju/state/watcher"
 )
 
 var LoadedInvalid = make(chan struct{})

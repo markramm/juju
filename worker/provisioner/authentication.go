@@ -6,11 +6,11 @@ package provisioner
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	apiprovisioner "launchpad.net/juju-core/state/api/provisioner"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api"
+	apiprovisioner "github.com/jameinel/juju/state/api/provisioner"
+	"github.com/jameinel/juju/utils"
 )
 
 // TaggedPasswordChanger defines an interface for a entity with a

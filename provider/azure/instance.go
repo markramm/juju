@@ -9,10 +9,10 @@ import (
 
 	"launchpad.net/gwacl"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/provider/common"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/worker/firewaller"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/provider/common"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/worker/firewaller"
 )
 
 type azureInstance struct {

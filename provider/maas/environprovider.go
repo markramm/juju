@@ -9,11 +9,11 @@ import (
 
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/juju/osenv"
+	"github.com/jameinel/juju/utils"
 )
 
 // Logger for the MAAS provider.

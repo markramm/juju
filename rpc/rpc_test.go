@@ -15,10 +15,10 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/log"
-	"launchpad.net/juju-core/rpc"
-	"launchpad.net/juju-core/rpc/jsoncodec"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/jameinel/juju/log"
+	"github.com/jameinel/juju/rpc"
+	"github.com/jameinel/juju/rpc/jsoncodec"
+	"github.com/jameinel/juju/testing/testbase"
 )
 
 type rpcSuite struct {

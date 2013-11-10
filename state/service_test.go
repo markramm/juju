@@ -10,12 +10,12 @@ import (
 	"labix.org/v2/mgo"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/testing"
-	jc "launchpad.net/juju-core/testing/checkers"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/testing"
+	jc "github.com/jameinel/juju/testing/checkers"
 )
 
 type ServiceSuite struct {

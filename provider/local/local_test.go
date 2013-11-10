@@ -11,10 +11,10 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/provider"
-	"launchpad.net/juju-core/provider/local"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/provider"
+	"github.com/jameinel/juju/provider/local"
+	"github.com/jameinel/juju/testing/testbase"
 )
 
 func TestLocal(t *stdtesting.T) {

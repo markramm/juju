@@ -5,10 +5,10 @@ package all
 
 // Register all the available providers.
 import (
-	_ "launchpad.net/juju-core/provider/azure"
-	_ "launchpad.net/juju-core/provider/ec2"
-	_ "launchpad.net/juju-core/provider/local"
-	_ "launchpad.net/juju-core/provider/maas"
-	_ "launchpad.net/juju-core/provider/null"
-	_ "launchpad.net/juju-core/provider/openstack"
+	_ "github.com/jameinel/juju/provider/azure"
+	_ "github.com/jameinel/juju/provider/ec2"
+	_ "github.com/jameinel/juju/provider/local"
+	_ "github.com/jameinel/juju/provider/maas"
+	_ "github.com/jameinel/juju/provider/null"
+	_ "github.com/jameinel/juju/provider/openstack"
 )

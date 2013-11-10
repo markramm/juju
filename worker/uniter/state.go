@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"os"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/utils"
-	uhook "launchpad.net/juju-core/worker/uniter/hook"
+	"github.com/jameinel/juju/charm"
+	"github.com/jameinel/juju/utils"
+	uhook "github.com/jameinel/juju/worker/uniter/hook"
 )
 
 // Op enumerates the operations the uniter can perform.

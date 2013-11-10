@@ -9,16 +9,16 @@ import (
 	"launchpad.net/gnuflag"
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/environs/sync"
-	"launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/provider/ec2/httpstorage"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/environs/filestorage"
+	"github.com/jameinel/juju/environs/storage"
+	"github.com/jameinel/juju/environs/sync"
+	"github.com/jameinel/juju/environs/tools"
+	"github.com/jameinel/juju/provider/ec2/httpstorage"
+	coretools "github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/utils"
+	"github.com/jameinel/juju/version"
 )
 
 var DefaultToolsLocation = sync.DefaultToolsLocation

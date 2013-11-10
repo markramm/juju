@@ -12,8 +12,8 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/worker"
+	"github.com/jameinel/juju/testing/testbase"
+	"github.com/jameinel/juju/worker"
 )
 
 type runnerSuite struct {

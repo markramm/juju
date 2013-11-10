@@ -7,7 +7,7 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/loggo"
 
-	jc "launchpad.net/juju-core/testing/checkers"
+	jc "github.com/jameinel/juju/testing/checkers"
 )
 
 type LogMatchesSuite struct{}

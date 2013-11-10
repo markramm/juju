@@ -12,14 +12,14 @@ import (
 	"launchpad.net/gnuflag"
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/cloudinit"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/provider/common"
-	"launchpad.net/juju-core/state"
+	"github.com/jameinel/juju/agent"
+	"github.com/jameinel/juju/cmd"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/environs/cloudinit"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/provider/common"
+	"github.com/jameinel/juju/state"
 )
 
 // Cloud-init write the URL to be used to load the bootstrap state into this file.

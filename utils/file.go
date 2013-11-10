@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"launchpad.net/juju-core/juju/osenv"
+	"github.com/jameinel/juju/juju/osenv"
 )
 
 // NormalizePath replaces a leading ~ with $HOME, and removes any .. or . path

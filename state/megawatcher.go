@@ -10,10 +10,10 @@ import (
 
 	"labix.org/v2/mgo"
 
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/multiwatcher"
-	"launchpad.net/juju-core/state/watcher"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/state/multiwatcher"
+	"github.com/jameinel/juju/state/watcher"
 )
 
 // allWatcherStateBacking implements allWatcherBacking by

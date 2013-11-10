@@ -9,7 +9,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cloudinit"
+	"github.com/jameinel/juju/cloudinit"
 )
 
 // TODO integration tests, but how?

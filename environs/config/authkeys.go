@@ -13,8 +13,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"launchpad.net/juju-core/cert"
-	"launchpad.net/juju-core/juju/osenv"
+	"github.com/jameinel/juju/cert"
+	"github.com/jameinel/juju/juju/osenv"
 )
 
 func expandTilde(f string) string {

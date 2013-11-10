@@ -15,12 +15,12 @@ import (
 	"launchpad.net/goose/identity"
 	"launchpad.net/goose/nova"
 
-	"launchpad.net/juju-core/environs/jujutest"
-	"launchpad.net/juju-core/environs/storage"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	"launchpad.net/juju-core/provider/openstack"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/jameinel/juju/environs/jujutest"
+	"github.com/jameinel/juju/environs/storage"
+	envtesting "github.com/jameinel/juju/environs/testing"
+	"github.com/jameinel/juju/provider/openstack"
+	coretesting "github.com/jameinel/juju/testing"
+	"github.com/jameinel/juju/testing/testbase"
 )
 
 // generate a different bucket name for each config instance, so that

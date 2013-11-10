@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"syscall"
 
-	"launchpad.net/juju-core/log"
+	"github.com/jameinel/juju/log"
 )
 
 // The Dir type encapsulates access to data and operations

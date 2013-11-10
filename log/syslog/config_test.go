@@ -10,7 +10,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/log/syslog"
+	"github.com/jameinel/juju/log/syslog"
 )
 
 func Test(t *testing.T) {

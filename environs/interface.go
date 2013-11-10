@@ -4,13 +4,13 @@
 package environs
 
 import (
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/tools"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/environs/storage"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api"
+	"github.com/jameinel/juju/tools"
 )
 
 // A EnvironProvider represents a computing and storage provider.

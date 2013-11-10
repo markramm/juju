@@ -6,7 +6,7 @@ package state
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/instance"
+	"github.com/jameinel/juju/instance"
 )
 
 // address represents the location of a machine, including metadata about what

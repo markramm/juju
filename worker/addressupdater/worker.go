@@ -6,9 +6,9 @@ package addressupdater
 import (
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/worker"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/worker"
 )
 
 type updaterWorker struct {

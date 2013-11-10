@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"launchpad.net/juju-core/cmd"
+	"github.com/jameinel/juju/cmd"
 )
 
 // SCPCommand is responsible for launching a scp command to copy files to/from remote machine(s)

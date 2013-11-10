@@ -11,8 +11,8 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/errors"
-	jc "launchpad.net/juju-core/testing/checkers"
+	"github.com/jameinel/juju/errors"
+	jc "github.com/jameinel/juju/testing/checkers"
 )
 
 type errorsSuite struct{}

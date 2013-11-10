@@ -8,14 +8,14 @@ import (
 
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/log"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/worker"
+	"github.com/jameinel/juju/environs"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/log"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/watcher"
+	"github.com/jameinel/juju/worker"
 )
 
 // Firewaller watches the state for ports opened or closed

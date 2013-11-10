@@ -10,9 +10,9 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/simplestreams"
-	sstesting "launchpad.net/juju-core/environs/simplestreams/testing"
-	jc "launchpad.net/juju-core/testing/checkers"
+	"github.com/jameinel/juju/environs/simplestreams"
+	sstesting "github.com/jameinel/juju/environs/simplestreams/testing"
+	jc "github.com/jameinel/juju/testing/checkers"
 )
 
 func Test(t *testing.T) {

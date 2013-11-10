@@ -11,11 +11,11 @@ import (
 
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/errors"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/utils"
 )
 
 var logger = loggo.GetLogger("juju.agent")

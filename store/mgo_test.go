@@ -11,7 +11,7 @@ import (
 	"labix.org/v2/mgo"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing"
+	"github.com/jameinel/juju/testing"
 )
 
 // ----------------------------------------------------------------------------

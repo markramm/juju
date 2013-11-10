@@ -6,7 +6,7 @@ package tools
 import (
 	"launchpad.net/loggo"
 
-	"launchpad.net/juju-core/version"
+	"github.com/jameinel/juju/version"
 )
 
 var logger = loggo.GetLogger("juju.tools")

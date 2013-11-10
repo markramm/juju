@@ -12,19 +12,19 @@ import (
 
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/agent"
-	agenttools "launchpad.net/juju-core/agent/tools"
-	"launchpad.net/juju-core/cloudinit"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/log/syslog"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/upstart"
-	"launchpad.net/juju-core/utils"
+	"github.com/jameinel/juju/agent"
+	agenttools "github.com/jameinel/juju/agent/tools"
+	"github.com/jameinel/juju/cloudinit"
+	"github.com/jameinel/juju/constraints"
+	"github.com/jameinel/juju/environs/config"
+	"github.com/jameinel/juju/instance"
+	"github.com/jameinel/juju/log/syslog"
+	"github.com/jameinel/juju/names"
+	"github.com/jameinel/juju/state"
+	"github.com/jameinel/juju/state/api"
+	coretools "github.com/jameinel/juju/tools"
+	"github.com/jameinel/juju/upstart"
+	"github.com/jameinel/juju/utils"
 )
 
 // BootstrapStateURLFile is used to communicate to the first bootstrap node

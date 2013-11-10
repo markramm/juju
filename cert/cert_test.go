@@ -18,7 +18,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cert"
+	"github.com/jameinel/juju/cert"
 )
 
 func TestAll(t *testing.T) {

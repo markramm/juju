@@ -3,9 +3,9 @@ package machine_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/machine"
-	apiservertesting "launchpad.net/juju-core/state/apiserver/testing"
+	"github.com/jameinel/juju/state/api/params"
+	"github.com/jameinel/juju/state/apiserver/machine"
+	apiservertesting "github.com/jameinel/juju/state/apiserver/testing"
 )
 
 type agentSuite struct {
