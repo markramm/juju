@@ -1,0 +1,26 @@
+language: go
+
+go:
+  - 1.1
+
+
+# Before install runs before install, we might want to use
+# make install-dependencies
+# however, that would probably not work properly with Travis's idea of
+# the build/test matrix. (It would always install the stable version of
+# go over whatever go is installed, etc.)
+# before_install:
+before_install:
+  - sudo add-apt-repository ppa:juju/stable
+  - sudo apt-get update
+  # We should already have golang available
+  - sudo apt-get install build-essential bzr distro-info-data git-core mercurial mongodb-server zip
+
+# Default install is
+# install: go get -d -v ./... && go build -v ./...
+# "go get" doesn't support specifying an exact revision
+
+script: go test -v ./...
+
+after_success: gofmt -w -l .
+
